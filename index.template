@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="generator" content="pandoc">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<title>Aula 1</title>
+	<style type="text/css">code{white-space: pre;background-color: #f0f0f0;}</style>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js">
+	</script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+undivert(/dev/stdin)dnl
+</body>
+</html>
