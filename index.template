@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
 	<meta charset="utf-8">
 	<meta name="generator" content="pandoc">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<meta http-equiv="Content-Language" content="pt">
 	<title>Aula 1</title>
 	<style type="text/css">code{white-space: pre;background-color: #f0f0f0;}</style>
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js">
-	</script>
+	<link rel="stylesheet" href="default.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/hybrid.min.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+	<script src="https://dl.dropboxusercontent.com/u/8634156/hyp.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
+<div class="texto hyphenate">
 undivert(/dev/stdin)dnl
+</div>
 </body>
 </html>

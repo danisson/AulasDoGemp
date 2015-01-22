@@ -1,9 +1,13 @@
 changecom(<!--,-->}) changequote(!@,@!)
 define(!@rodape@!,!@<sup id="r$1"><a href="#f$1">$1</a></sup>@!)dnl
 define(!@nota@!,!@<sup id="f$1">$1. $2 <a href="#r$1">↩</a></sup>@!)dnl
+define(!@aulaimg@!,!@!@<img id="aulaimg" src="img/$1"></img>@!@!)dnl
+define(!@rimg@!,!@!@<img class="rimg" src="img/$1" style="height:$2px"></img>@!@!)dnl
+define(!@limg@!,!@!@<img class="limg" src="img/$1" style="height:$2px"></img>@!@!)dnl
 dnl
 Sobre programação e Hello World
 ===============================
+aulaimg(1.png)
 Nesta aula iremos falar um pouco sobre o que é programação, como será seu primeiro programa em C e como compilar-lo.
 Antes de tudo, recomendamos que você use alguma distribuição do [Linux][1].
 As distribuições mais recomendadas para iniciantes são [Ubuntu][2] e [Mint][3]. Isto é importante porque na [Maratona][4] todos os computadores estarão usando Linux.
@@ -33,6 +37,7 @@ Mas no fim das contas o mais importante é ter em mente o procedimento que deve 
 
 A linguagem C
 -------------
+rimg(1ritchie.png,150)
 A linguagem de programação C é uma linguagem que surgiu para o público em 1972 feita por Dennis Ritchie. Ela é bastante popular com aplicações que precisam de performance tanto em tempo de execução quanto em tamanho. Ela e sua derivada (C++) são as linguagens principais da maratona, por isso iremos aprender a usar ela.  
 
 Basicamente a linguagem é uma série de comandos usando o alfabeto do inglês e símbolos matemáticos e cada comando é separado por ponto-e-virgula. Alguns programas podem ser vistos, como exemplo, neste [link](códigos.html).  

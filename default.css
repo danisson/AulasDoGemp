@@ -1,0 +1,39 @@
+code {
+	white-space: pre;
+	background-color: #1D1F21;
+	color: #C5C8C6;
+
+	padding: 0 0.5em 0 0.5em;
+}
+
+.texto {
+	padding: 1.1em;
+	margin: 0 auto;
+	width: 80%;
+	
+	background-color: antiquewhite;
+}
+
+.texto p {
+	text-align: justify;
+}
+
+img#aulaimg {
+	float: left;
+	width: 260px;
+	margin: 0 1em 1em 0;
+}
+
+img.rimg {
+	float: right;
+
+	margin: 1em;
+	border-style: solid;
+}
+
+img.limg {
+	float: left;
+
+	margin: 1em;
+	border-style: solid;
+}
