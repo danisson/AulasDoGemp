@@ -8,7 +8,7 @@ dnl
 Sobre programação e Hello World
 ===============================
 aulaimg(1.png)
-Nesta aula iremos falar um pouco sobre o que é programação, como será seu primeiro programa em C e como compilar-lo.
+Nesta aula iremos falar um pouco sobre o que é programação, como será seu primeiro programa em C e como compila-lo.
 Antes de tudo, recomendamos que você use alguma distribuição do [Linux][1].
 As distribuições mais recomendadas para iniciantes são [Ubuntu][2] e [Mint][3]. Isto é importante porque na [Maratona][4] todos os computadores estarão usando Linux.
 
