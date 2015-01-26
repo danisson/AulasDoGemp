@@ -37,3 +37,10 @@ img.limg {
 	margin: 1em;
 	border-style: solid;
 }
+
+span.nota {
+	cursor: help;
+	vertical-align: super;
+	font-size: smaller;
+	text-decoration: underline;
+}
