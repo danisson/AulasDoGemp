@@ -10,6 +10,7 @@ code {
 	padding: 1.1em;
 	margin: 0 auto;
 	width: 80%;
+	min-height: 90vh;
 	
 	background-color: antiquewhite;
 }
@@ -43,4 +44,43 @@ span.nota {
 	vertical-align: super;
 	font-size: smaller;
 	text-decoration: underline;
+}
+
+div.comp {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+
+div.comp > pre {
+	flex: 1 0 auto;
+	margin: 0;
+}
+
+pre.pseudo {
+	/*color: #c5c8c6;
+	background: #1d1f21;*/
+	background: #c5c8c6;
+	color: #1d1f21;
+
+	/*overflow-x: auto;*/
+	padding: 0.5em;
+}
+
+
+/*Para display box*/
+.box {    
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-align: center;
+
+	display: box;
+	box-orient: horizontal;
+	box-align: center;
 }
