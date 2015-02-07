@@ -3,7 +3,7 @@ Entrada e Saída padrão e variáveis
 ==================================
 aulaimg(2.png)
 Nesta aula eu vou comentar de alguns conceitos básicos sobre programas no geral e como processar dados simples. Um comentário pertinente é que aqui eu não vou ensinar como escrever código seguro, em outras palavras, o estilo de escrita que estamos usando aqui é bem diferente do que se usa na vida real, o motivo disto é que na maratona precisamos escrever código rápido que recebe entradas bem comportadas. Nunca se esqueça que na vida real casos "não-comportados" são extremamente pertinentes.  
-Enfim, na [aula passada](aula1.html) vimos como é escrito o famoso "Hello World" e agora iremos aprender o que está acontecendo verdadeiramente e como escrever um código parecido.
+Enfim, na [aula passada](aula1.html) vimos como é escrito o famoso "Hello World" e agora iremos aprender o que está acontecendo e como escrever um código parecido.
 
 Um pouco de sintaxe
 -------------------
@@ -28,3 +28,16 @@ int main() {
 Se quiser pode compilar esse trecho para ver que ele é válido. As chaves representam um bloco, ela que diz onde começa e onde termina o `main` e qualquer outro termo que precisa de um bloco. O termo `int` antes de `main` indica que precisamos dar um número inteiro para o sistema operacional representando se o programa terminou com sucesso ou não, neste caso estamos falando `return 0`, ou seja tudo deu certo.
 
 Quando temos um identificador e alguma coisa (ou nenhuma) em parenteses é porque se trata de uma chamada de função, lembra muito do jeito que escrevemos no colégio `f(x)`. Aqui temos a chamada da função `printf` (Print Formatado) com o argumento `"Hello World\n"` nota(1,É um detalhe muito importante que em C as funções que estou comentando parecem mas não são exatamente as funções que viamos na matemática, iremos comentar sobre isso mais tarde.)
+
+Uma coisa engraçada que a função "printf" não diz onde vai ser escrito o que foi passado a ela. Iremos comentar agora sobre uma coisa fundamental que é a entrada e a saída padrão.
+
+Entrada e Saída padrão
+----------------------
+Podemos assumir que todo computador dá uma interface para o programador, a saída e entrada padrão. No caso comum, ela corresponde ao que pode ser escrito no terminal, mas podemos redirecionar a saída padrão para arquivos ou redirecionar arquivos para a entrada.
+
+Aquela primeira linha `#include<stdio.h>` é um chamado pro compilador falando que você irá usar a biblioteca `stdio` que significa Standard Input/Ouput, dentro dela temos várias funções próprias para lidar com entrada e saída. As que você mais vai usar é o `printf` e o `scanf`. Elas são bem parecidas em relação aos seus argumentos, vamos ver um pedaço rápido de código:
+
+```c
+include(!@aulas/códigos/nome.c@!)
+```
+Este programa pergunta qual o nome do seu usuário e depois dá "bom dia" para ele. Aqui temos um conceito novo que é o de variáveis e de tipos, por enquanto, pense que variáveis são caixas que guardam valores e o tipo fala o que a caixa guarda. Por exemplo, se queremos números inteiros o tipo é `int`, se queremos caracteres sozinhos o tipo é `char`, depois iremos falar sobre mais tipos.
