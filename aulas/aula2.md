@@ -55,6 +55,7 @@ Vamos fazer um exemplo com números inteiros agora, o próximo programa irá ped
 ```c
 include(!@aulas/códigos/hora.c@!)
 ```
+Eu recomendo entrar horas esquisitas ou fora do formato pra ver o quão errado dá o programa.
 
 Exercícios
 ----------
