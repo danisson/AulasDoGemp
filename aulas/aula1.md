@@ -27,7 +27,7 @@ Mas no fim das contas o mais importante é ter em mente o procedimento que deve 
 
 A linguagem C
 -------------
-rimg(1ritchie.png,150)
+orimg(http://cm.bell-labs.com/cm/cs/who/dmr/dmr.gif,150)
 A linguagem de programação C é uma linguagem que surgiu para o público em 1972 feita por Dennis Ritchie. Ela é bastante popular com aplicações que precisam de performance tanto em tempo de execução quanto em tamanho. Ela e sua derivada (C++) são as linguagens principais da maratona, por isso iremos aprender a usar ela.  
 
 Basicamente a linguagem é uma série de comandos usando o alfabeto do inglês e símbolos matemáticos e cada comando é separado por ponto-e-virgula. Alguns programas podem ser vistos, como exemplo, neste [link](aula1.exemplos.html).  
@@ -70,3 +70,7 @@ Veja os arquivos da pasta, se tudo deu certo "hello" irá aparecer lá. Para exe
 Exercícios
 ----------
 Nenhum exercício por enquanto.
+
+Imagens usadas
+--------------
+2. Fotografia do Dennis Ritchie de sua página no [Bell-Labs](http://cm.bell-labs.com/who/dmr/)
