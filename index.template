@@ -5,7 +5,11 @@
 	<meta name="generator" content="pandoc">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	<meta http-equiv="Content-Language" content="pt">
-	<title>Aulas Gemp</title>
+
+	<meta property="og:title" content="TITLE">
+	<meta property="og:site_name" content="Aulas do GEMP">
+	<title>Aula NUM - TITLE</title>
+
 	<style type="text/css">code{white-space: pre;background-color: #f0f0f0;}</style>
 	<link rel="stylesheet" href="default.css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/hybrid.min.css">

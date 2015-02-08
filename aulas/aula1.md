@@ -3,8 +3,7 @@ Sobre programação e Hello World
 ===============================
 aulaimg(1.png)
 Nesta aula iremos falar um pouco sobre o que é programação, como será seu primeiro programa em C e como compila-lo.
-Antes de tudo, recomendamos que você use alguma distribuição do [Linux][1].
-As distribuições mais recomendadas para iniciantes são [Ubuntu][2] e [Mint][3]. Isto é importante porque na [Maratona][4] todos os computadores estarão usando Linux.
+Antes de tudo, recomendamos que você use alguma distribuição do [Linux][1]. As distribuições mais recomendadas para iniciantes são [Ubuntu][2] e [Mint][3]. Isto é importante porque na [Maratona][4] todos os computadores estarão usando Linux. Além disso, todos os computadores do LEC tem Ubuntu instalado então já é um bom começo mexer neles se você está com medo de instalar no seu computador.
 
 [1]: http://pt.wikipedia.org/wiki/Linux "Kernel Linux"
 [2]: http://www.ubuntu.com/ "Ubunto Linux"
@@ -28,7 +27,7 @@ Mas no fim das contas o mais importante é ter em mente o procedimento que deve 
 
 A linguagem C
 -------------
-rimg(1ritchie.png,150)
+orimg(http://cm.bell-labs.com/cm/cs/who/dmr/dmr.gif,150)
 A linguagem de programação C é uma linguagem que surgiu para o público em 1972 feita por Dennis Ritchie. Ela é bastante popular com aplicações que precisam de performance tanto em tempo de execução quanto em tamanho. Ela e sua derivada (C++) são as linguagens principais da maratona, por isso iremos aprender a usar ela.  
 
 Basicamente a linguagem é uma série de comandos usando o alfabeto do inglês e símbolos matemáticos e cada comando é separado por ponto-e-virgula. Alguns programas podem ser vistos, como exemplo, neste [link](aula1.exemplos.html).  
@@ -46,8 +45,8 @@ Neste caso eu adicionei a descrição do algorítmo no próprio código por ser 
 ```c
 #include<stdio.h>
 
-int main() // Comece daqui
-{	printf("Hello World!\n"); // Escreva "Hello World" e quebre a linha
+int main() { // Comece daqui
+	printf("Hello World!\n"); // Escreva "Hello World" e quebre a linha
 	return 0; // Terminei com sucesso
 }
 ```
@@ -67,3 +66,11 @@ gcc hello.c -o hello
 ```
 
 Veja os arquivos da pasta, se tudo deu certo "hello" irá aparecer lá. Para executar basta entrar `./hello`. Pronto, escrevemos, compilamos e executamos nosso primeiro programa em C, contudo não sabemos muita coisa do que está escrita nele. Agora iremos examinar o que está acontecendo aí.
+
+Exercícios
+----------
+Nenhum exercício por enquanto.
+
+Imagens usadas
+--------------
+2. Fotografia do Dennis Ritchie de sua página no [Bell-Labs](http://cm.bell-labs.com/who/dmr/)
