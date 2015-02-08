@@ -1,13 +1,4 @@
 include(`macros.m4')
-define(!@comp@!,!@
-$1
-----------------
-<div class="!@comp@!">
-```
-undivert(aulas/códigos/$2)
-```
-<pre class="pseudo box">undivert(aulas/códigos/$2.p)</pre>
-</div>@!)
 Exemplos de programas em várias linguagens
 ==========================================
 aulaimg(1.png) <!-- Inserir depois o desenho de verdade -->
@@ -15,5 +6,3 @@ Essa parte da aula é mais uma curiosidade do que uma aula mesmo, aqui eu irei m
 
 comp(Teste de primalidade - C,primo.c)
 Este algorítmo realiza o teste de primalidade mais simples e é o menos eficiente. Não é difícil ver porque só precisamos checar os fatores menores ou iguais à raíz do número.
-
-comp(??? - Java,?.java)
