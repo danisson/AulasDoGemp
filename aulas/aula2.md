@@ -33,7 +33,7 @@ Se quiser pode compilar esse trecho para ver que ele é válido. As chaves repre
 
 Quando temos um identificador e alguma coisa (ou nenhuma) em parenteses é porque se trata de uma chamada de função, lembra muito do jeito que escrevemos no colégio `f(x)`. Aqui temos a chamada da função `printf` (Print Formatado) com o argumento `"Hello World\n"`. nota(1,É um detalhe muito importante que em C as funções que estou comentando parecem mas não são exatamente as funções que viamos na matemática, iremos comentar sobre isso mais tarde.)
 
-Uma coisa engraçada que a função "printf" não diz onde vai ser escrito o que foi passado a ela. Iremos comentar agora sobre uma coisa fundamental que é a entrada e a saída padrão.
+Uma coisa engraçada que a função `printf` não diz onde vai ser escrito o que foi passado a ela. Iremos comentar agora sobre uma coisa fundamental que é a entrada e a saída padrão.
 
 Entrada e Saída padrão
 ----------------------
@@ -56,6 +56,9 @@ Vamos fazer um exemplo com números inteiros agora, o próximo programa irá ped
 include(!@aulas/códigos/hora.c@!)
 ```
 Eu recomendo entrar horas esquisitas ou fora do formato pra ver o quão errado dá o programa.
+Como podemos ver, o formato para inteiros é `%d` porque iremos receber/escrever números em base decimal. Como podemos ver nesse exemplo as operações matemáticas normais estão disponíveis em C. Por exemplo, tente escrever um programa com a seguinte linha: `printf("%d\n",9/3);`, certamente irá aparecer `3` na tela. Veja este [anexo](aula2.anexo.html) para aprender mais sobre as operações de inteiros.
+
+Como exercício, tente fazer um programa que recebe o nome do usuário (usando as idéias do programa anteior), receba o ano de nascimento e o ano atual e diga qual a idade do usuário. Se você estiver com problemas, tente fazer as coisas parte por parte e depois junte tudo.
 
 Exercícios
 ----------
