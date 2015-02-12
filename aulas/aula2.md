@@ -60,9 +60,17 @@ Como podemos ver, o formato para inteiros é `%d` porque iremos receber/escrever
 
 Como exercício, tente fazer um programa que recebe o nome do usuário (usando as idéias do programa anteior), receba o ano de nascimento e o ano atual e diga qual a idade do usuário. Se você estiver com problemas, tente fazer as coisas parte por parte e depois junte tudo.
 
+URI Online Judge
+----------------
+Agora no começo iremos passar exercícios para vocês deste website, ele é um repositório de problemas da maratona ou similares. Acesse ele [aqui](https://www.urionlinejudge.com.br/judge/login).  
+No final de cada aula teremos uma lista de problemas do URI que são relevantes ao conteúdo dado nessa aula. Uma coisa boa do URI é que ele tem um ranking, assim você pode acompanhar a posição dos seus amigos para competir. Se você ficar muito preso num problema tente tirar as dúvidas em sala ou no nosso [grupo do facebook](https://www.facebook.com/groups/169425793178096/).
+
 Exercícios
 ----------
-<< Colocar links aqui >>
+* [Extremamente Básico](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
+* [Soma Simples](https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+* [Produto Simples](https://www.urionlinejudge.com.br/judge/pt/problems/view/1004)
+* [Diferença](https://www.urionlinejudge.com.br/judge/pt/problems/view/1007)
 
 Imagens usadas
 --------------
