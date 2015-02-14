@@ -31,7 +31,7 @@ int main() {
 ```
 Se quiser pode compilar esse trecho para ver que ele é válido. As chaves representam um bloco, ela que diz onde começa e onde termina o `main` e qualquer outro termo que precisa de um bloco. O termo `int` antes de `main` indica que precisamos dar um número inteiro para o sistema operacional representando se o programa terminou com sucesso ou não, neste caso estamos falando `return 0`, ou seja tudo deu certo.
 
-Quando temos um identificador e alguma coisa (ou nenhuma) em parenteses é porque se trata de uma chamada de função, lembra muito do jeito que escrevemos no colégio `f(x)`. Aqui temos a chamada da função `printf` (Print Formatado) com o argumento `"Hello World\n"`. nota(1,É um detalhe muito importante que em C as funções que estou comentando parecem mas não são exatamente as funções que viamos na matemática, iremos comentar sobre isso mais tarde.)
+Quando temos um identificador e alguma coisa (ou nenhuma) em parênteses é porque se trata de uma chamada de função, lembra muito do jeito que escrevemos no colégio `f(x)`. Aqui temos a chamada da função `printf` (Print Formatado) com o argumento `"Hello World\n"`. nota(1,É um detalhe muito importante que em C as funções que estou comentando parecem mas não são exatamente as funções que viamos na matemática, iremos comentar sobre isso mais tarde.)
 
 Uma coisa engraçada que a função "printf" não diz onde vai ser escrito o que foi passado a ela. Iremos comentar agora sobre uma coisa fundamental que é a entrada e a saída padrão.
 
@@ -50,7 +50,7 @@ Podemos ver que as funções de entrada e saída formatada tem uma simetria na s
 
 Inteiros e entrada e saída
 --------------------------
-Vamos fazer um exemplo com números inteiros agora, o próximo programa irá pedir uma hora no horário de brasília (sem horário de verão) e mostra pro usuário que horas seria em Greenwich e em no Acre.
+Vamos fazer um exemplo com números inteiros agora, o próximo programa irá pedir uma hora no horário de brasília (sem horário de verão) e mostra pro usuário que horas seria em Greenwich e no Acre.
 
 ```c
 include(!@aulas/códigos/hora.c@!)
