@@ -53,7 +53,7 @@ Inteiros e entrada e saída
 Vamos fazer um exemplo com números inteiros agora, o próximo programa irá pedir uma hora no horário de brasília (sem horário de verão) e mostra pro usuário que horas seria em Greenwich e no Acre.
 
 ```c
-include(!@aulas/códigos/hora.c@!)
+include(!@aulas/códigos/hora.c@!);
 ```
 Eu recomendo entrar horas esquisitas ou fora do formato pra ver o quão errado dá o programa.
 Como podemos ver, o formato para inteiros é `%d` porque iremos receber/escrever números em base decimal. Como podemos ver nesse exemplo as operações matemáticas normais estão disponíveis em C. Por exemplo, tente escrever um programa com a seguinte linha: `printf("%d\n",9/3);`, certamente irá aparecer `3` na tela. Veja este [anexo](aula2.anexo.html) para aprender mais sobre as operações de inteiros.
@@ -62,15 +62,16 @@ Como exercício, tente fazer um programa que recebe o nome do usuário (usando a
 
 URI Online Judge
 ----------------
-Agora no começo iremos passar exercícios para vocês deste website, ele é um repositório de problemas da maratona ou similares. Acesse ele [aqui](https://www.urionlinejudge.com.br/judge/login).  
+Apartir de agora iremos passar exercícios para vocês do URI, ele é um repositório de problemas da maratona ou similares. Acesse ele [aqui](https://www.urionlinejudge.com.br/judge/login).
+
 No final de cada aula teremos uma lista de problemas do URI que são relevantes ao conteúdo dado nessa aula. Uma coisa boa do URI é que ele tem um ranking, assim você pode acompanhar a posição dos seus amigos para competir. Se você ficar muito preso num problema tente tirar as dúvidas em sala ou no nosso [grupo do facebook](https://www.facebook.com/groups/169425793178096/).
 
 Exercícios
 ----------
-* [Extremamente Básico](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
-* [Soma Simples](https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
-* [Produto Simples](https://www.urionlinejudge.com.br/judge/pt/problems/view/1004)
-* [Diferença](https://www.urionlinejudge.com.br/judge/pt/problems/view/1007)
+* urip(Extremamente Básico,1001)
+* urip(Soma Simples,1003)
+* urip(Produto Simples,1004)
+* urip(Diferença,1007)
 
 Imagens usadas
 --------------
