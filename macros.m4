@@ -15,5 +15,5 @@ $1
 ```
 undivert(aulas/códigos/exemplos/$2)
 ```
-<pre class="pseudo box">undivert(aulas/códigos/exemplos/$2.p)</pre>
+<pre class="pseudo box">undivert(aulas/códigos/exemplos/$2.txt)</pre>
 </div>@!)
