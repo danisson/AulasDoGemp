@@ -1,3 +1,9 @@
+body {
+	background: maroon;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 code {
 	white-space: pre;
 	background-color: #1D1F21;

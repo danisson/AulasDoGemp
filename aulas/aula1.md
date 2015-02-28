@@ -21,7 +21,7 @@ Começando a programar
 ---------------------
 O primeiro passo para começar a programar é usar um *editor de texto*. Isso é importante porque não queremos que algo lhe atrapalhe ao escrever o código. Os editores que com certeza estarão na maratona são: vim, nano, emacs e gedit. Somente os dois últimos são gráficos, ou seja, vim e nano rodam por padrão num terminal. nota(2,!@Existe o gvim, uma interface gráfica para o vim, mas quase tudo ainda é feito por comandos baseados em texto no gvim.@!)
 
-Na computação existe uma certa "guerra santa" de qual seria o melhor editor de texto mas, aqui iremos assumir que você está usando o gedit. Recomendamos a leitura do [anexo](anexo1.html) explicando algumas configurações do gedit e o que achamos de cada uma desrtas configurações.
+Na computação existe uma certa "guerra santa" de qual seria o melhor editor de texto mas, aqui iremos assumir que você está usando o gedit. Recomendamos a leitura do [anexo](aula1.anexo.html) explicando algumas configurações do gedit e o que achamos de cada uma desrtas configurações.
 
 Mas no fim das contas o mais importante é ter em mente o procedimento que deve ser feito antes de sair escrevendo no editor de texto ou na sua linguagem de programação favorita. Ter o que deve ser feito em mente ajuda na separação de erros lógicos (ou seja, no passo-a-passo a ser dado para o computador) com erros de uso da linguagem (uso errado da sintaxe, por exemplo).
 
