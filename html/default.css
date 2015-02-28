@@ -61,7 +61,7 @@ div.comp {
 }
 
 div.comp > pre {
-	flex: 1 0 auto;
+	flex: auto;
 	margin: 0;
 }
 
@@ -71,8 +71,8 @@ pre.pseudo {
 	background: #c5c8c6;
 	color: #1d1f21;
 
-	/*overflow-x: auto;*/
 	padding: 0.5em;
+	white-space: pre-wrap;
 }
 
 
