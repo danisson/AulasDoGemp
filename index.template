@@ -12,8 +12,8 @@
 
 	<style type="text/css">code{white-space: pre;background-color: #f0f0f0;}</style>
 	<link rel="stylesheet" href="default.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/hybrid.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/hybrid.min.css">
+	<script src="highlight.pack.js"></script>
 	<script src="https://dl.dropboxusercontent.com/u/8634156/hyp.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>

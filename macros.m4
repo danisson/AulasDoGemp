@@ -6,5 +6,14 @@ define(!@rimg@!,!@!@<img class="rimg" src="img/$1" style="height:$2px"></img>@!@
 define(!@limg@!,!@!@<img class="limg" src="img/$1" style="height:$2px"></img>@!@!)dnl
 define(!@orimg@!,!@!@<img class="rimg" src="$1" style="height:$2px"></img>@!@!)dnl
 define(!@olimg@!,!@!@<img class="limg" src="$1" style="height:$2px"></img>@!@!)dnl
-
 define(!@urip@!,!@!@[$1](https://www.urionlinejudge.com.br/judge/pt/problems/view/$2)@!@!)dnl
+
+define(!@comp@!,!@
+$1
+----------------
+<div class="!@comp@!">
+```
+undivert(aulas/códigos/$2)
+```
+<pre class="pseudo box">undivert(aulas/códigos/$2.p)</pre>
+</div>@!)
