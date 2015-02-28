@@ -1,4 +1,4 @@
-Theorema plus_assoc : Para todos n,m e p pertencente aos naturais,
+Teorema plus_assoc : Para todos n,m e p pertencente aos naturais,
   n + (m + p) = (n + m) + p.
 Prova:
   Vamos fazer indução em "n".
