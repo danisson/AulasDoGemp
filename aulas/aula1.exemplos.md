@@ -6,7 +6,7 @@ Essa parte da aula é mais uma curiosidade do que uma aula mesmo, aqui eu irei m
 comp(Teste de primalidade - C,primo.c)
 Este algoritmo realiza o teste de primalidade mais simples e é o menos eficiente. Não é difícil ver porque só precisamos checar os fatores menores ou iguais à raíz do número, tente pensar no motivo separando o número em dois fatores quaisquer.
 
-comp(Números de Fibonnaci - Javascript,fib.js)
+comp(Números de Fibonacci - Javascript,fib.js)
 Tente abrir seu navegador e colar esse código (Normalmente no F12) no console, depois faça `fibonacci(10)`, Javascript é uma linguagem bem popular hoje em dia porque todos os navegadores suportam ela.
 
 Este exemplo usa uma idéia chamada *recursão* é uma função que chama ela mesma, escrevendo uma função desse tipo sem pensar pode tornar ela um loop infinito, mas a maior parte das recursões são bem pensadas para ter um caso *base* que termina. Aqui temos que zero e um são os casos base do fibonacci.
@@ -20,3 +20,4 @@ Este exemplo foi feito na linguagem Haskell, ela é linguagem funcional pura, ou
 Esse algoritmo inventado por Euclides na antiguidade encontra o maior divisor comum entre dois números e tem muitas aplicações em coisas relacionadas com Teoria dos Números, criptografia é um exemplo dessas coisas.
 
 comp(Prova da associatividade da soma - Coq,plus_assoc.v)
+Hoje em dia, foi demonstrado uma conexação muito forte entre matemática formal e programação, ao ponto que um teorema matemático como esse pode ser interpretado como um programa, esta é a base da aplicação Coq, que é o conjunto de duas linguagens, uma de programação e outra de prova de teoremas.

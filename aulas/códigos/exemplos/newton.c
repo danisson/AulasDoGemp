@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double abs(double n) {
+double absoluto(double n) {
 	return n>0?n:-n;
 }
 
@@ -9,8 +9,8 @@ int main() {
 	scanf("%lf",&n);
 
 	r=1;
-	while ((r*r)-n > 0.00001) {
-		r = (r + n/r)/2
+	while (absoluto((r*r)-n) > 0.00001) {
+		r = (r + n/r)/2;
 	}
 
 	printf("A raiz de %lf é aproximadamente %lf\n", n,r);
