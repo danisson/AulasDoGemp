@@ -12,14 +12,14 @@ Antes de tudo, recomendamos que você use alguma distribuição do [Linux][1]. A
 
 Introdução
 ----------
-Quando queremos ensinar alguém a resolver um problema é muito comum descrever o que deve ser feito num passo-a-passo. Programação é algo bem parecido com isto mas, quando estamos falando com pessoas elas podem entender as partes incompletas e até mesmo modificar os passos de acordo com sua necessidade. Um computador não tem a capacidade de modificar o que foi dado a ele por conta própria e nem completar o que não foi dito, por isso, devemos explicar claramente o que deve ser feito. nota(1,
+Quando queremos ensinar alguém a resolver um problema é muito comum descrever o que deve ser feito num passo-a-passo. Programação é algo bem parecido com isto mas, quando estamos falando com pessoas elas podem entender as partes incompletas e até mesmo modificar os passos de acordo com sua necessidade. Um computador não tem a capacidade de modificar o que foi dado a ele por conta própria e nem completar o que não foi dito, por isso, devemos explicar claramente o que deve ser feito. rnota(1,
 Existem outras formas de computação que não envolve uma sequência de passo-a-passo mas isto está fora do escopo do grupo.)
 
 Em outras palavras, você dá um conjunto de operações não ambíguas e o seu computador executa essas operações de forma sequêncial. Existe alguns conceitos que iremos praticar ao longo das aulas e que são essenciais para programação.
 
 Começando a programar
 ---------------------
-O primeiro passo para começar a programar é usar um *editor de texto*. Isso é importante porque não queremos que algo lhe atrapalhe ao escrever o código. Os editores que com certeza estarão na maratona são: vim, nano, emacs e gedit. Somente os dois últimos são gráficos, ou seja, vim e nano rodam por padrão num terminal. nota(2,!@Existe o gvim, uma interface gráfica para o vim, mas quase tudo ainda é feito por comandos baseados em texto no gvim.@!)
+O primeiro passo para começar a programar é usar um *editor de texto*. Isso é importante porque não queremos que algo lhe atrapalhe ao escrever o código. Os editores que com certeza estarão na maratona são: vim, nano, emacs e gedit. Somente os dois últimos são gráficos, ou seja, vim e nano rodam por padrão num terminal. rnota(2,!@Existe o gvim, uma interface gráfica para o vim, mas quase tudo ainda é feito por comandos baseados em texto no gvim.@!)
 
 Na computação existe uma certa "guerra santa" de qual seria o melhor editor de texto mas, aqui iremos assumir que você está usando o gedit. Recomendamos a leitura do [anexo](aula1.anexo.html) explicando algumas configurações do gedit e o que achamos de cada uma desrtas configurações.
 
