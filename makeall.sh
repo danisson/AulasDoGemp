@@ -4,3 +4,5 @@
 ./make.sh aula2
 
 ./make.sh aula3
+
+./make.sh aula4
