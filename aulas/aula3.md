@@ -11,25 +11,7 @@ Nesta aula iremos ver um pouco da sintaxe do `if` e uma discussão sobre proposi
 Um pouco de sintaxe
 -------------------
 ```c
-#include <stdio.h>
-
-int main() {
-	int n;
-	int secreto = 0xFF; // Números que começam em 0x
-	                   // estão em hexadecimal.
-
-	printf("Adivinhe o número secreto: ");
-	scanf("%d",&n);
-
-	if (n == secreto) {
-		printf("Parabéns, você adivinhou.\n");
-		return 0; // Vamos sair mais cedo para não executar
-		         // o que vem depois do <if>
-	}
-
-	printf("Desculpe, você errou.\n")
-	return 0;
-}
+include(!@aulas/códigos/segredo.c@!)
 ```
 Como podemos ver o comando `if` induz um bloco de código que devemos delimitar com chaves. Depois da palavra temos uma expressão entre parenteses, aqui ela representa uma expressão booleana (Ou seja, que retorna verdadeiro ou falso), caso a expressão retorne verdadeiro o bloco delimitado pelo `if` é executado.
 
@@ -54,16 +36,18 @@ Ponto flutuante
 ---------------
 Por causa das limitações do computador, não podemos colocar estruturas infinitas dentro dele, isso inclui os números reais. Ou seja, temos que dar um jeito de guardar aproximações finitas destes números, uma das ideias é pegar um número inteiro e considerar que as *n* primeiras casas decimais estão depois da vírgula e o resto está antes. Chamamos isso de **Ponto fixo** porque o ponto decimal não se mexe, parece uma abordagem muito boa contudo, programas que trabalham com simulação de gravidade precisam lidar com distâncias "pequenas" considerando simulações no planeta Terra e também de distâncias bem grandes tipo a colisão de duas galaxias. 
 
-Por isso, foi inventado a representação do **Ponto flutuante**, ou seja, nossos números agora são um par $(n,e)$ que representam o número $n*2^{e-1}$ ou seja, todos os números binários $0.n*2^{e}$, o bom é que sempre temos a mesma quantidade de dígitos significativos mas podemos mudar a magnitude do número para ordens bem mais altas do que poderíamos.
-
+Por isso, foi inventado a representação do **Ponto flutuante**, ou seja, nossos números agora são um par $(n,e)$ que representam o número $n*2^{e-1}$ ou seja, todos os números binários $0.n*2^{e}$, o bom é que sempre temos a mesma quantidade de dígitos significativos mas podemos mudar a magnitude do número para ordens bem mais altas do que poderíamos. Contudo, por estarmos trabalhando com aproximações, algumas propriedades de números reais não funcionam.
 
 Biblioteca Matemática
 ----------------------
 << Explicação da biblioteca e como compilar com ela >>
 
-<< Exemplos com tudo >>
+Exemplo da aula
 -----------------------
-<< Um código com tudo e comentários >>
+```c
+include(!@aulas/códigos/sqrt.c@!)
+```
+Podemos ver nesse código o uso do condicional e da biblioteca matemática, eu recomendo tentar passar números negativos ou remover o teste que checa o número. Lembrando que para compilar com o `math.h` devemos colocar a *flag* `-lm` no final do comando `gcc`.
 
 Exercícios
 ----------
@@ -73,6 +57,3 @@ Exercícios
 * urip(Números Pares,1059)
 * urip(Números Positivos,1060)
 * urip(Soma de Impares Consecutivos I,1071)
-
-<!-- Imagens usadas -->
-<!-- -------------- -->
