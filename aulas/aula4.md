@@ -24,7 +24,9 @@ Vetores e entrada/saída
 
 Exercícios
 ----------
-<< Procurar Exercícios >>
+* urip(PUM,1142)
+* urip(Números Pares,1059)
+* urip(Números Positivos,1060)
 
 <!-- Imagens usadas -->
 <!-- -------------- -->
