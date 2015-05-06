@@ -8,10 +8,10 @@ int main() {
 	printf("Adivinhe o número secreto: ");
 	scanf("%d",&n);
 
-	if (n != secreto) {
-		printf("Desculpe, você errou.\n")
-		return 0; // Vamos sair mais cedo para não executar
-		         // o que vem depois do <if>
+	while (n != secreto) {
+		printf("Desculpe, você errou.\n"
+		       "Tente novamente:");
+		scanf("%d",&n);
 	}
 
 	printf("Parabéns, você adivinhou corretamente.\n");

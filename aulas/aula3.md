@@ -17,7 +17,6 @@ Como podemos ver o comando `if` induz um bloco de código que devemos delimitar 
 
 A parte sintática é bem simples, a causa de muitos erros é o que fica dentro dos parenteses e normalmente é difícil de perceber a causa.
 
-
 Valores verdade
 ---------------
 Nas especificações mais antigas da linguagem C (Que você irá usar) não existe a ideia do tipo `bool`, ou seja dos valores verdadeiro ou falso. É especificado que o valor `0` representa falso e qualquer coisa que não seja zero é verdadeiro, ou seja, `-1` é verdadeiro assim como `255`.

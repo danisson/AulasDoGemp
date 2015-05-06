@@ -28,6 +28,7 @@ code {
 img#aulaimg {
 	float: left;
 	width: 260px;
+	height: 225px;
 	margin: 0 1em 1em 0;
 }
 
