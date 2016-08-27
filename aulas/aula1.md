@@ -27,18 +27,18 @@ Mas no fim das contas o mais importante é ter em mente o procedimento que deve 
 
 A linguagem C
 -------------
-orimg(http://cm.bell-labs.com/cm/cs/who/dmr/dmr.gif,150)
-A linguagem de programação C é uma linguagem que surgiu para o público em 1972 feita por Dennis Ritchie. Ela é bastante popular com aplicações que precisam de performance tanto em tempo de execução quanto em tamanho. Ela e sua derivada (C++) são as linguagens principais da maratona, por isso iremos aprender a usar ela.  
+rimg(1ritchie.png,150)
+A linguagem de programação C é uma linguagem que surgiu para o público em 1972 feita por Dennis Ritchie. Ela é bastante popular com aplicações que precisam de performance tanto em tempo de execução quanto em tamanho. Ela e sua derivada (C++) são as principais linguagens da maratona, por isso iremos aprender a usar ela.
 
-Basicamente a linguagem é uma série de comandos usando o alfabeto do inglês e símbolos matemáticos e cada comando é separado por ponto-e-virgula. Alguns programas podem ser vistos, como exemplo, neste [link](aula1.exemplos.html).  
+Basicamente a linguagem é uma série de comandos usando o alfabeto do inglês e símbolos matemáticos e cada comando é separado por ponto-e-virgula. Alguns programas podem ser vistos, como exemplo, neste [link](aula1.exemplos.html).
 
 Qualquer um pode criar uma linguagem de programação mas ela só passa a ter alguma utilidade se podemos transformar este texto num arquivo executável pelo computador. Este processo é chamado de "compilação" e o aplicativo responsável por isso é o compilador. Iremos usar o compilador *gcc* que está presente por padrão em muitas distribuições do Linux e é usado na Maratona.
 
 Hello World
 -----------
-Então, abrindo seu editor favorito, vamos escrever código! Iremos começar com códigos bem famosos, primeiramente um "Hello World" e depois o "algoritmo de Trabb Pardo–Knuth".  
+Então, abrindo seu editor favorito, vamos escrever código! Iremos começar com códigos bem famosos, primeiramente um "Hello World" e depois o "algoritmo de Trabb Pardo–Knuth".
 
-No começo da aula eu usava o termo "passo-a-passo" mas o termo verdadeiro é "algoritmo", algoritmos são um das bases teóricas da programação, aqui iremos descrever nossos algoritmos em "pseudo-C", ou seja, iremos descrever algo bem parecido com o C mas sem muita pressão na sintaxe ou na precisão do que estamos dizendo. O que realmente queremos é transmitir a idéia da solução mas sem perder a idéia de o quão demorado ou o quão rápido são certas operações.  
+No começo da aula eu usava o termo "passo-a-passo" mas o termo verdadeiro é "algoritmo", algoritmos são um das bases teóricas da programação, aqui iremos descrever nossos algoritmos em "pseudo-C", ou seja, iremos descrever algo bem parecido com o C mas sem muita pressão na sintaxe ou na precisão do que estamos dizendo. O que realmente queremos é transmitir a idéia da solução mas sem perder a idéia de o quão demorado ou o quão rápido são certas operações.
 
 Neste caso eu adicionei a descrição do algorítmo no próprio código por ser um caso muito simples, mas quanto mais complexo vai ficando nossos problemas, mais complicado fica de explicar as formas desse jeito. Vamos começar escrevendo isso:
 
@@ -55,9 +55,9 @@ Agora salve como algum nome e termine com ".c", por exemplo "hello.c", na área 
 
 Compilando seu primeiro programa
 --------------------------------
-Para usá-lo precisaremos abrir o terminal (Control+Alt+T nas distribuições recomendadas), navegar até o diretório que você salvou o arquivo e executá-lo.  
+Para usá-lo precisaremos abrir o terminal (Control+Alt+T nas distribuições recomendadas), navegar até o diretório que você salvou o arquivo e executá-lo.
 
-Quando abrimos o terminal ele estará no diretório do seu usuário chamado de `home` ou `~`. Para acessar a área de trabalho basta escrever `cd Área\ de\ Trabalho`{.bash}. Se você escrever `ls`{.bash} irá aparecer uma lista de arquivos e certamente "hello.c" estará lá.  
+Quando abrimos o terminal ele estará no diretório do seu usuário chamado de `home` ou `~`. Para acessar a área de trabalho basta escrever `cd Área\ de\ Trabalho`{.bash}. Se você escrever `ls`{.bash} irá aparecer uma lista de arquivos e certamente "hello.c" estará lá.
 
 Para compilar o programa, agora iremos fazer `gcc arquivo.c -o executavel` ou seja:
 

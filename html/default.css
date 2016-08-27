@@ -15,9 +15,10 @@ code {
 .texto {
 	padding: 1.1em;
 	margin: 0 auto;
-	width: 80%;
+	max-width: 800px;
+	width: 90%;
 	min-height: 90vh;
-	
+
 	background-color: antiquewhite;
 }
 
@@ -27,10 +28,21 @@ code {
 
 img#aulaimg {
 	float: left;
+	--w: 260px;
 	width: 260px;
 	height: 225px;
 	margin: 0 1em 1em 0;
 }
+
+@media screen and (max-width: 750px) {
+	img#aulaimg {
+		float: none;
+		margin-bottom: 0;
+		margin-left: calc((100% - 260px)/2);
+		margin-right: calc((100% - 260px)/2);
+	}
+}
+
 
 img.rimg {
 	float: right;
@@ -78,7 +90,7 @@ pre.pseudo {
 
 
 /*Para display box*/
-.box {    
+.box {
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
 	-webkit-box-align: center;
